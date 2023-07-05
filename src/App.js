@@ -4,6 +4,9 @@ import Greeting from './components/pure/greeting';
 import GreetingF from './components/pure/greetingF';
 import TaskListComponent from './components/container/task_list';
 import TaskContactComponent from './components/container/taskContact';
+// import Ejemplo from './hooks/ejemplo';
+import Ejemplo2 from './hooks/Ejemplo2';
+import MiComponenteConContexto from './hooks/Ejemplo3';
 
 
 function App() {
@@ -14,7 +17,10 @@ function App() {
       {/* <Greeting name={"Roxana"}></Greeting> */}
       {/* <GreetingF name="Roxana"></GreetingF> */}
       {/* <TaskListComponent></TaskListComponent> */}
-      <TaskContactComponent></TaskContactComponent>
+      {/* <TaskContactComponent></TaskContactComponent> */}
+      {/* <Ejemplo></Ejemplo> */}
+      {/* <Ejemplo2></Ejemplo2> */}
+      <MiComponenteConContexto></MiComponenteConContexto>
       </header>
     </div>
   );
