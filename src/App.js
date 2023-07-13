@@ -8,6 +8,7 @@ import TaskContactComponent from './components/container/taskContact';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import GreetingStyled from './components/pure/greetingStyled';
+import Clock from './ejercicios/ejemplo456';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       {/* <Ejemplo></Ejemplo> */}
       {/* <Ejemplo2></Ejemplo2> */}
       {/* <MiComponenteConContexto></MiComponenteConContexto> */}
-      <GreetingStyled name= "Roxana"> </GreetingStyled>
+      {/* <GreetingStyled name= "Roxana"> </GreetingStyled> */}
+      <Clock></Clock>
       </header>
     </div>
   );
