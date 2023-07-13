@@ -7,6 +7,7 @@ import TaskContactComponent from './components/container/taskContact';
 // import Ejemplo from './hooks/ejemplo';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
+import GreetingStyled from './components/pure/greetingStyled';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       {/* <TaskContactComponent></TaskContactComponent> */}
       {/* <Ejemplo></Ejemplo> */}
       {/* <Ejemplo2></Ejemplo2> */}
-      <MiComponenteConContexto></MiComponenteConContexto>
+      {/* <MiComponenteConContexto></MiComponenteConContexto> */}
+      <GreetingStyled name= "Roxana"> </GreetingStyled>
       </header>
     </div>
   );

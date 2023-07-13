@@ -7,9 +7,12 @@ const TaskListComponent = () => {
     const defaultTask = new Task('Roxana', 'Default description', false, LEVELS.NORMAL);
 
     const [tasks, setTask] = useState(defaultTask);
+    // const [loading, setLoagind ] = setLoagind(false);
 
     useEffect(() => {
         console.log('Task State has been modified');
+        // setLoagind(false);
+
         return () => {
             console.log('TaskList component is going to unmount');
         };
@@ -28,7 +31,5 @@ const TaskListComponent = () => {
         </div>
     );
 }
-
-
 
 export default TaskListComponent;
