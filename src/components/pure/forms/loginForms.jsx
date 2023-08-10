@@ -1,20 +1,16 @@
-import React, {useState} from 'react';
+import React, { useState } from "react";
 
 const LoginForms = () => {
-
 const initialCredentials = [
     {
-        user: ' ',
-        password: ' ',
-    }
+    user: " ",
+    password: " ",
+    },
 ];
 
-    const [credentials, setCredentials] = useState(initialCredentials);
+const [credentials, setCredentials] = useState(initialCredentials);
 
-    return (
-        <div>
-        </div>
-    );
-}
+return <div></div>;
+};
 
 export default LoginForms;

@@ -3,7 +3,7 @@ import { Contact } from '../../models/contact';
 import ContactComponent from '../pure/forms/contactR';
 
 const TaskContactComponent = () => {
-    const defaultContact = new Contact('Roxana', 'Rhenals', 'roxanarhenals65@gmail.com', false);
+    const defaultContact = new Contact('Roxana', 'Rhenals', 'roxanarhenals65@gmail.com', true);
     return (
         <div>
             <div>
