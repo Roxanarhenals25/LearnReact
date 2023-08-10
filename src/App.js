@@ -28,7 +28,7 @@ function App() {
       {/* <GreetingStyled name= "Roxana"> </GreetingStyled> */}
       {/* <Father></Father> */}
       {/* <LoginFormik></LoginFormik> */}
-      <RegisterFormik></RegisterFormik>
+      {/* <RegisterFormik></RegisterFormik> */}
       </header>
     </div>
   );
